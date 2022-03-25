@@ -17,4 +17,14 @@ function makeGrid(num){
     }
 }
 
+function changeColour(event){
+    if(event.target.matches('.cell')){
+        event.target.classList.add('hovered');
+   };
+}
+
+grid.addEventListener('mouseover', function(e){
+    changeColour(e);
+});
+
 makeGrid(16);

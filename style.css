@@ -16,3 +16,7 @@ body{
 #grid div{
     border: 0.1rem solid black;
 }
+
+.hovered {
+    background-color: black;
+}
