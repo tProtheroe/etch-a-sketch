@@ -4,7 +4,11 @@ body{
 }
 
 #clear-grid{
+    background-color: white;
+    border-radius: 1rem;
+    font-size: 1.5rem;
     margin: 1rem;
+    padding: 0.5rem;
 }
 
 #grid{
@@ -28,8 +32,4 @@ body{
     flex-direction: column;
     height: 60vh;
     justify-content: center;    
-}
-
-.hovered {
-    background-color: black !important;
 }

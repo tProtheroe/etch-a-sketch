@@ -28,8 +28,13 @@ function makeGrid(num){
 }
 
 function changeColour(event){
+    let rgb1 = Math.floor(Math.random() * 255);
+    let rgb2 = Math.floor(Math.random() * 255);
+    let rgb3 = Math.floor(Math.random() * 255);
+
     if(event.target.matches('.cell')){
-        event.target.classList.add('hovered');
+        event.target.style.backgroundColor = `rgb(${rgb1}, ${rgb2}, ${rgb3})`;
+        event.target.style.filter -= 0.1;
    };
 }
 
