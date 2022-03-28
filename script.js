@@ -34,7 +34,6 @@ function changeColour(event){
 
     if(event.target.matches('.cell')){
         event.target.style.backgroundColor = `rgb(${rgb1}, ${rgb2}, ${rgb3})`;
-        event.target.style.filter -= 0.1;
    };
 }
 
