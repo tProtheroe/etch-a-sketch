@@ -2,12 +2,13 @@ body{
     background-color: blanchedalmond;
 
 }
-.container{
-    display: flex;
-    justify-content: center;    
+
+#clear-grid{
+    margin: 1rem;
 }
 
 #grid{
+    border: 0.5rem solid black;
     display: grid;
     height: 500px;
     width: 500px;
@@ -17,6 +18,18 @@ body{
     border: 0.1rem solid black;
 }
 
+.cell {
+    background-color: white;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;    
+}
+
 .hovered {
-    background-color: black;
+    background-color: black !important;
 }
